@@ -108,13 +108,9 @@ html body #quiz #questions {
 html body #quiz #start .detail,
 html body #quiz #end .detail,
 html body #quiz #questions .detail {
-  background: rgba(255, 255, 255, 0.723);
+  background: white;
   padding: 0.2em;
   text-align: center;
-  border-radius: 15px;
-  -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
-  border: 1px solid rgba(224, 23, 23, 0.392);
 }
 html body #quiz #start .circle,
 html body #quiz #start fieldset legend,
@@ -196,11 +192,9 @@ html body #quiz #start #startBtn,
 html body #quiz #start #retryBtn,
 html body #quiz #end #startBtn,
 html body #quiz #end #retryBtn {
-  background: rgba(255, 255, 255, 0.719);
-  -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
-  border: 1px solid rgba(224, 23, 23, 0.392);
-  color: rgb(3, 3, 3);
+  background: black;
+  border: 2px solid black;
+  color: white;
   border-radius: 0.2em;
   padding: 0.5em 1em;
   font-family: Garamond, serif;

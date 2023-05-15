@@ -119,12 +119,9 @@ html {
       #questions {
         padding: 3vw;
         .detail {
-          background: rgba(255, 255, 255, 0.723);
+          background: white;
           padding: 0.2em;
           text-align: center;
-          border-radius: 15px;
-          backdrop-filter: blur(5px);
-          border: 1px solid rgba(224, 23, 23, 0.392);
         }
         .circle,
         fieldset legend {
@@ -189,11 +186,9 @@ html {
       #end {
         #startBtn,
         #retryBtn {
-          background: rgba(255, 255, 255, 0.719);
-          //   border: 2px solid black;
-          backdrop-filter: blur(5px);
-          border: 1px solid rgba(224, 23, 23, 0.392);
-          color: rgb(3, 3, 3);
+          background: black;
+          border: 2px solid black;
+          color: white;
           border-radius: 0.2em;
           padding: 0.5em 1em;
           font-family: Garamond, serif;
@@ -204,7 +199,6 @@ html {
           left: 50%;
           transform: translateX(-50%);
           bottom: 3vw;
-
           &:focus,
           &:hover {
             cursor: pointer;

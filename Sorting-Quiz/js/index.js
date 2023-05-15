@@ -1,7 +1,7 @@
 const data = {
   answers: {
-    prawda: ["5", "seven", "twenty", 1885],
-    nieprawda: ["custard cream", "bourbon", "jammy dodger"],
+    number: ["5", "seven", "twenty", 1885],
+    biscuit: ["custard cream", "bourbon", "jammy dodger"],
   },
 };
 const quiz = document.querySelector("#quiz");
@@ -70,7 +70,7 @@ function quizCompleted() {
 function setupQuiz() {
   quiz.innerHTML += `<div id="start">
     <div class="detail">Press the “play” button to begin sorting the statement in the circle into the column it belongs to</div>
-    <div class="circle"><span>Sorting please</span></div>
+    <div class="circle"><span>Sorting activity</span></div>
     <button id="startBtn" onclick="reset()">Start</button>
   <div>`;
   quizQuestionSetup();
